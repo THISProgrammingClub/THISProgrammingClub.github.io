@@ -4,6 +4,7 @@ body{
 	background: url(backgroundGradient.jpg);
 	background-size: cover;
 	padding:0px;
+	background-repeat: repeat-x;
 }
 
 body.mobile{
