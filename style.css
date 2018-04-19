@@ -16,10 +16,10 @@ body{
 }
 
 #contentbox{
-	background-color:white;
-	opacity:0.8;
+	background-color: rgba(255,255,255,0.85);
 	font-family: "Helvetica", serif, "Arial";
 	padding:20px;
+	text-align:left;
 }
 
 #header > *{
