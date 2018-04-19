@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(backgroundGradient.jpg);
+	background-size: cover;
+	padding:0px;
+}
+
+#header{
+	background-color: white;
+	background-color: rgba(255, 255, 255, 0.85);
+	opacity:1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+#contentbox{
+	background-color:white;
+	opacity:0.8;
+	font-family: "Helvetica", serif, "Arial";
+	padding:20px;
+}
+
+#header > *{
+	font-family: "Helvetica", serif, "Arial";
+	opacity: 1;
+}
+
+#subtitle{
+	color: #77236C;
+}
+
+#contents {
+	background-color: rgba(255, 255, 255, 0.85);
+	text-align: left;
+	opacity: 1;
+	width: 90%;
+	height: 500px;
+}
+
+#text{
+	width: 45%;
+	height: 500px;
+	padding: 1.5%;
+	font-family: "Helvetica", serif, "Arial";
+}
+
+#download{
+	width: 150px;
+	height: 100px;
+	border-radius: 33%;
+	border-style: solid;
+	border-width: 5px;
+	background-color: white;
+	border-color: #77236C;
+	color: #77236C;
+	font-family: "Tahoma", serif, "Arial";
+	opacity: 1;
+	
+	transition-duration: 0.5s;
+}
+
+#download:hover{
+	background-color: #77236C;
+	color: white;
+}
+
+#gallerywrapper{
+	align-content: center;
+	width:45%;
+	height:500px;
+	background-color: white;
+	border:none;
+	opacity:1;
+}
+
+#gallerywrapperMobile{
+	align-content: center;
+	width:100%;
+	background-color: white;
+	border:none;
+	opacity:1;
+}
+
+#gallery{
+	max-width:45%;
+	max-height:500px;
+	opacity: 1;
+}

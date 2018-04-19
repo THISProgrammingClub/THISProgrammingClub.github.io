@@ -1,0 +1,1 @@
+please change the corresponding link in home.html and mobile.html to the downloading link for the android apk.

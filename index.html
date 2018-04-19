@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spartapp</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+<script>function redirection(){
+	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    // Take the user to a different screen here.
+		window.location = "mobile.html";
+	}
+}
+</script>
+</head>
+
+<body onLoad="redirection()">
+	<div id="header">
+		<h1><center>Spartapp</center></h1>
+		<h2 id="subtitle"><center>By the THIS Programming Club</center></h2>
+	</div>
+	<center>
+	<table id="contents">
+	<tr >
+		<td id="text"><h2>What can you do on it</h2><h3>
+				<ul class="list">
+					<li>Browse your full year schedule at all times</li>
+					<li>Receive announcements from clubs and organizations</li>
+					<li>Post announcements</li>
+				</ul>
+			</h3>
+			<h2>How to get it</h2>
+			<h3>-Android:</h3>
+			<center><a href="exampleFile.txt"><button id="download"><h2>download for android</h2></button></a></center>
+			<h3>-iOS: visit AppStore and search "Spartapp"</h3></td>
+			
+		<td id="gallerywrapper"><script>
+				var count = 2;
+				var myVar = setInterval(myTimer, 3000);
+				function myTimer() {
+    				if (count > 4)
+						count = 1;
+					document.getElementById("gallery").src="pic"+count.toString()+".jpg";
+					count++;
+				}
+			</script>
+			<center><img id="gallery" src = "pic1.jpg"/></center></td>
+		</tr>
+	</table></center>
+</body>
+</html>
