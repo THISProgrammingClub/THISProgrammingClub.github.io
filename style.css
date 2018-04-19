@@ -5,10 +5,17 @@ body{
 	background-size: cover;
 	padding:0px;
 	background-repeat: repeat-x;
+	width:100%;
+	margin:0px;
+	padding:0px;
 }
 
 body.mobile{
+	margin:0px;
+	padding:0px;
 	font-size: 200%;
+	width:100%;
+	background-repeat: repeat-x;
 }
 
 #header{
