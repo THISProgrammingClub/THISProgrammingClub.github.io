@@ -34,10 +34,6 @@ body.mobile{
 	text-align:left;
 }
 
-#contentbox *{
-	width:90%;
-}
-
 #header > *{
 	font-family: "Helvetica", serif, "Arial";
 	opacity: 1;
@@ -70,7 +66,7 @@ body.mobile{
 	background-color: white;
 	border-color: #77236C;
 	color: #77236C;
-	font-family: "Tahoma", serif, "Arial";
+	font-family: "Helvetica", serif, "Arial";
 	opacity: 1;
 	
 	transition-duration: 0.5s;
@@ -85,7 +81,7 @@ body.mobile{
 	background-color: white;
 	border-color: #77236C;
 	color: #77236C;
-	font-family: "Tahoma", serif, "Arial";
+	font-family: "Helvetica", serif, "Arial";
 	opacity: 1;
 	
 	transition-duration: 0.5s;
