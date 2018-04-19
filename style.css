@@ -82,6 +82,11 @@ body.mobile{
 	transition-duration: 0.5s;
 }
 
+#download.mobile:touch{
+	background-color: #77236C;
+	color: white;
+}
+
 #download:hover{
 	background-color: #77236C;
 	color: white;
