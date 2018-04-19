@@ -91,7 +91,7 @@ body.mobile{
 	transition-duration: 0.5s;
 }
 
-#download.mobile:touch{
+#download:touch{
 	background-color: #77236C;
 	color: white;
 }
