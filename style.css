@@ -28,11 +28,14 @@ body.mobile{
 }
 
 #contentbox{
-	width:100%;
+	width:90%;
 	background-color: rgba(255,255,255,0.85);
 	font-family: "Helvetica", serif, "Arial";
-	padding:20px;
 	text-align:left;
+}
+
+#contentbox *{
+	width:90%;
 }
 
 #header > *{
@@ -47,7 +50,6 @@ body.mobile{
 #contents {
 	background-color: rgba(255, 255, 255, 0.85);
 	text-align: left;
-	opacity: 1;
 	width: 90%;
 	height: 500px;
 }
@@ -110,7 +112,8 @@ body.mobile{
 
 #gallerywrapperMobile{
 	align-content: center;
-	width:100%;
+	width:90%;
+
 	background-color: white;
 	border:none;
 	opacity:1;
