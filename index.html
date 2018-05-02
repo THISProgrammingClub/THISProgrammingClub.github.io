@@ -16,12 +16,12 @@
 <body onLoad="redirection()">
 	<div id="header">
 		<h1><center>Spartapp</center></h1>
-		<h2 id="subtitle"><center>By the THIS Programming Club</center></h2>
+		<h2 id="subtitle"><center>By the THIS programming club</center></h2>
 	</div>
 	<center>
 	<table id="contents">
-	<tr >
-		<td id="text"><h2>What can you do on it</h2><h3>
+	<tr>
+		<td id="text"><h2>What you can do on it</h2><h3>
 				<ul class="list">
 					<li><a href = ".\help\schedule.html">Browse your full year schedule at all times</a></li>
 					<li><a href = ".\help\announcements.html">Receive announcements from clubs and organizations</a></li>
@@ -30,21 +30,27 @@
 			</h3>
 			<h2>How to get it</h2>
 			<h3>-Android:</h3>
-			<center><a href="spartapp_android.apk"><button id="download"><h2>download for android</h2></button></a></center>
-			<h3>-iOS: visit App Store and search "Spartapp"</h3></td>
+			<center><a href="spartapp_android.apk"><button id="download"><h2>Download For Android</h2></button></a></center>
+			<h3>-iOS: Open the App Store and search "Spartapp"</h3></td>
 			
 		<td id="gallerywrapper"><script>
 				var count = 2;
 				var myVar = setInterval(myTimer, 3000);
 				function myTimer() {
-    				if (count > 4)
+    				if (count > 3)
 						count = 1;
 					document.getElementById("gallery").src="pic"+count.toString()+".jpg";
 					count++;
 				}
 			</script>
 			<center><img id="gallery" src = "pic1.jpg"/></center></td>
+			<!--If you wanna get rid of the survey for any reason get rid of the three lines below-->
+			<td id="survey" style="background-color: white">
+				<iframe src="survey.html" width="375" height="600" frameBorder="0">Feedback Survey (please wait for it to load)</iframe>
+			</td>
+
 		</tr>
-	</table><p>website created by the THIS Programming Club, hosted on github.com</p></center>
+	</table>
+	<p style="font-family: sans-serif;">Website by the THIS programming club, hosted on github.com</p></center>
 </body>
 </html>

@@ -6,6 +6,16 @@
 <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
 </head>
 
+<script type="text/javascript">
+	
+function resize() {
+	var d = document;
+	d.getElementById("surveyiframe").width=window.innerWidth;
+	d.getElementById("surveyiframe").height=500;
+}
+
+</script>
+
 <body class = "mobile">
 <div id="header">
 		<h1><center>Spartapp</center></h1>
@@ -32,10 +42,17 @@
 			</h3>
 			<h2 style="text-align:center;">How to get it</h2>
 			<h3>-Android:</h3>
-			<center><a href="spartapp_android.apk"><button id="download" class = "mobile"><h2 style="font-size:300%;">download for android</h2></button></a></center>
-		<h3>-iOS: visit App Store and search "Spartapp"</h3>
+			<center><a href="spartapp_android.apk"><button id="download" class = "mobile"><h2 style="font-size:300%;"><b>Download For Android</b></h2></button></a></center>
+		<h3>-iOS: Open the App Store and search "Spartapp"</h3>
 		
 </div></center>
-<center><p>website created by the THIS Programming Club, hosted on github.com</p></center>
+
+<div id="survey" style="background-color: white" onload="resize()">
+				<center>
+				<button id="surveybutton" onclick="window.location.href='https://www.surveymonkey.com/r/H6PVHGM'" value="Feedback Survey" style="size: 50px"><b>Feedback Survey</b></button>
+				</center>
+			</div>
+
+<center><p>Website created by the THIS Programming Club, hosted on github.com</p></center>
 </body>
 </html>
