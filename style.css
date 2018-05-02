@@ -83,7 +83,6 @@ body.mobile{
 	color: #77236C;
 	font-family: "Helvetica", serif, "Arial";
 	opacity: 1;
-	font-size: 18px;
 	
 	transition-duration: 0.5s;
 }
@@ -99,7 +98,6 @@ body.mobile{
 	color: #77236C;
 	font-family: "Helvetica", serif, "Arial";
 	opacity: 1;
-	font-size: 50px;
 	
 	transition-duration: 0.5s;
 }
